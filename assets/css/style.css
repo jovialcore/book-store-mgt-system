@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{margin: 0;}
+.banner{
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../imgs/bana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.rate{list-style: none;}
+.bana-cap{color: white;font-size: 2em;}
+.section[data-bg="faq"]{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imgs/banner.jpg');
+}
+.about[data-bg="about"]{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imgs/pix.jpg');
+  color: #fff;
+  background-position: center center;
+}
+.catalog[data-bg="catalog"]{
+  height: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imgs/book.jpg');
+  color: #fff;
+  background-position: center center;
+}
+.cart[data-bg="cart"]{
+  height: 200px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../imgs/img.jpg');
+  color: #fff;
+  background-position: center center;
+}
+.login[data-bg="login"]{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('../imgs/bana.jpg');
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.faq__title{font-size: 15px;}
+.sum-amount{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+}

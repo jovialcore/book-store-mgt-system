@@ -1,0 +1,9 @@
+# directory browsing
+Options All -Indexes
+RewriteEngine On
+
+#REGULAR PAGES
+RewriteRule    ^home/?$    index.php
+RewriteRule ^Faq/?$   Faq.php
+RewriteRule ^about/?$   about.php
+
