@@ -49,7 +49,7 @@
                 echo "";
                }else {
                  echo "
-                 <span class='float-right' style='cursor: pointer;'  onclick='addToCart(<?= $bookId ?>,<?php echo '$bookName' ?>, <?= $price ?>)'  >
+                 <span class='float-right' style='cursor: pointer;'  onclick='addToCart(<?= $bookId ?>,<?php echo $bookName ?>, <?= $price ?>)'  >
                   <a class='text-dark' data-bs-toggle='tooltip' data-bs-placement='top' title='Add to Cart'>
                     Add to Cart<i class='fas fa-shopping-cart ml-3'></i>
                   </a>
@@ -58,7 +58,7 @@
                }
                
             ?>
-            <span class="float-right" style="cursor: pointer;"  onclick='addToCart(<?= $bookId ?>,"<?php echo $bookName ?>", <?= $price ?>)'  >
+            <span class="float-right" style="cursor: pointer;"  onclick='addToCart(<?= $bookId ?>, <?php echo $bookName ?>, <?= $price ?>)'  >
               <a class="text-dark" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to Cart">
                 Add to Cart<i class="fas fa-shopping-cart ml-3"></i>
               </a>
